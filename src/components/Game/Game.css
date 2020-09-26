@@ -1,0 +1,126 @@
+.outerContainer {
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1A1A1D;
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+}
+.topPart {
+  display: flex;
+  justify-content: space-between;
+}
+input[type=text], input[type=number] {
+  font-size: 1.5rem;
+  text-align: center;
+}
+input[type=text].letterInput {
+  font-size: 4rem;
+  width: 5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
+table, td {
+  text-align: center;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid white;
+  max-width: 15rem;
+}
+table {
+  max-width: 95vw;
+  margin: 0 auto;
+}
+table input[type=text] {
+  width: 15rem;
+  padding: 1.5rem 0;
+}
+.lastRow td {
+  border: none;
+}
+
+.sideContainer {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 220px;
+  align-items: center;
+  color: white;
+}
+.users-list {
+  margin-left: 5rem;
+}
+.startButton {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.startButton:hover {
+  cursor: pointer;
+}
+.modal {
+  color: black;
+  text-align: center;
+}
+.rulesButton {
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  border: 0;
+  padding: 2rem;
+  margin-left: 3rem;
+  border-radius: 5px;
+}
+.rulesButton:hover {
+  cursor: pointer;
+}
+.attentionModal {
+  display: flex;
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;;
+}
+
+.endGame {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  border: 0;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.endGame:hover {
+  cursor: pointer;
+}
+
+.rightTopSquare {
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+.rightTopSquare div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightTopSquare input[type=number] {
+  font-size: 2rem;
+  width: 9rem;
+}
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1
+}
